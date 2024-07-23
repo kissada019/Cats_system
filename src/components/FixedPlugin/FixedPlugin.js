@@ -8,7 +8,7 @@ import classnames from "classnames";
 import imagine1 from "assets/img/sidebar-1.jpg";
 import imagine2 from "assets/img/sidebar-2.jpg";
 import imagine3 from "assets/img/sidebar-3.jpg";
-import imagine4 from "assets/img/sidebar-5.jpg";
+import imagine4 from "assets/img/sidebar-4.jpg";
 
 import Button from "components/CustomButtons/Button.js";
 
@@ -138,7 +138,7 @@ export default function FixedPlugin(props) {
                         </a>
                     </li>
 
-                    <li className="button-container">
+                    {/* <li className="button-container">
                         <div className="button-container">
                             <Button
                                 color="success"
@@ -171,7 +171,7 @@ export default function FixedPlugin(props) {
                         >
                             Documentation
                         </Button>
-                    </li>
+                    </li> */}
                     <li className="adjustments-line" />
                 </ul>
             </div>
