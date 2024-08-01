@@ -22,6 +22,7 @@ import LibraryBooks from "@material-ui/icons/LibraryBooks";
 import BubbleChart from "@material-ui/icons/BubbleChart";
 import LocationOn from "@material-ui/icons/LocationOn";
 import Notifications from "@material-ui/icons/Notifications";
+import InputIcon from '@material-ui/icons/Input';
 // import Unarchive from "@material-ui/icons/Unarchive";
 // import Language from "@material-ui/icons/Language";
 // core components/views for Admin layout
@@ -32,6 +33,7 @@ import Typography from "views/Typography/Typography.js";
 import Icons from "views/Icons/Icons.js";
 import Maps from "views/Maps/Maps.js";
 import NotificationsPage from "views/Notifications/Notifications.js";
+import Login from 'views/Login/index'
 // import UpgradeToPro from "views/UpgradeToPro/UpgradeToPro.js";
 // core components/views for RTL layout
 // import RTLPage from "views/RTLPage/RTLPage.js";
@@ -91,6 +93,13 @@ const dashboardRoutes = [
         rtlName: "إخطارات",
         icon: Notifications,
         component: NotificationsPage,
+        layout: "/admin",
+    },
+    {
+        path: "/login",
+        name: "Login",
+        icon: InputIcon,
+        component: Login,
         layout: "/admin",
     },
 
