@@ -118,7 +118,7 @@ export default function Login() {
                             color="primary"
                             onClick={() => showNotification("bc")}
                         >
-                            Bottom Center
+                            Lgoin
                         </Button>
                         <Snackbar
                             place="bc"
